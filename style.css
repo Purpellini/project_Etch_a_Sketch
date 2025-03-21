@@ -2,14 +2,63 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(24, 27, 29);
+    display: flex;
+    gap: 15%;
+    justify-content: center;
+    margin-top: 5%;
+}
+/* @media(max-width:900px){
+    body{
+        flex-direction: column;
+    }
+    .btn{
+        width: 50%;
+    }
+    .buttons{
+        align-items: center;
+    }
+} */
+.buttons{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+  
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(39, 43, 45);
+    padding: 20px;
+}
+.menu, #rozmiar{
+    color: rgb(3, 227, 227);
+}
+.btn{
+    background-color:  rgb(24, 27, 29);
+    padding: 10px 8px;  
+    border-radius: 10px;
+    min-width: 80px;
+    margin: 0;
+    border: 1px solid rgb(3, 227, 227);
+    color: rgb(3, 227, 227);
+
+
+}
 .container{
     display: flex;
     flex-wrap: wrap;
+    border: 1px solid rgb(3, 227, 227);
+    background-color: white;
+    width: 420px;
+    height: 420px;
+    flex-shrink: 0;
+    gap: 0;
 }
+
 .box{
-width: 6.25%;
-height: 100px;
 border: 1px solid black;
+box-sizing: border-box;
+
 }
 #btn{
     position: absolute;

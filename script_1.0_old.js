@@ -1,6 +1,6 @@
 const container = document.querySelector(".container")
 
-const btn = document.querySelector("#btn")
+const btn = document.querySelector("#btn1")
 btn.addEventListener("click",() =>{
     let number = parseInt(prompt("podaj ile w rzędzie"))
     totalNumber = number*number
